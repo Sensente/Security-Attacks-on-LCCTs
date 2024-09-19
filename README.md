@@ -7,7 +7,7 @@ This is the official repo of [Security Attacks on LLM-based Code Completion Tool
 # Important Notice
 All the codebase provided in this repo is for research purposes ONLY. Please keep LOVE & PEACE.
 
-# Breif Abstract
+# Brief Abstract
 The rapid development of large language models (LLMs) has significantly advanced code completion capabilities, giving rise to a new generation of LLM-based Code Completion Tools (LCCTs). Unlike general-purpose LLMs, these tools possess unique workflows, integrating multiple information sources as input and prioritizing code suggestions over natural language interaction, which introduces distinct security challenges. Additionally, LCCTs often rely on proprietary code datasets for training, raising concerns about the potential exposure of sensitive data. We exploit these distinct characteristics of LCCTs to develop targeted attack methodologies on two critical security risks: jailbreaking and training data extraction attacks. Our experimental results expose significant vulnerabilities within LCCTs, including a 99.4% success rate in jailbreaking attacks on GitHub Copilot and a 46.3% success rate on Amazon Q. Furthermore, We successfully extracted sensitive user data from GitHub Copilot, including $54$ real email addresses and $314$ physical addresses associated with GitHub usernames. Our study also demonstrates that these code-based attack methods are effective against general-purpose LLMs, such as the GPT series, highlighting a broader security misalignment in the handling of code by modern LLMs.
 
 For more details, please refer to our [paper](https://github.com/Sensente/Security-Attacks-on-LCCTs/blob/main/assets/2408.11006v1.pdf).
